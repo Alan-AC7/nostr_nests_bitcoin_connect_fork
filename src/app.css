@@ -14,3 +14,7 @@
     background: linear-gradient(to right, #212121, #212121) padding-box,
         linear-gradient(to right, #f158c0, #6e49f5) border-box;
 }
+
+body {
+    --bc-color-brand: #b346e9;
+  }

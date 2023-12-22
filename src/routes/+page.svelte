@@ -4,6 +4,8 @@
     import { Kinds } from '$lib/utils/constants';
     import { NDKEvent } from '@nostr-dev-kit/ndk';
     import { get } from 'svelte/store';
+    import {Button} from '@getalby/bitcoin-connect';
+
 
     const ndk = get(ndkStore);
     let name = 'test';
@@ -45,4 +47,11 @@
         for the Nostr protocol and the greater Nostr ecosystem. Nostr Plebs is made by Bitcoiners, for
         Bitcoiners.
     </p>
+    <br>
+    <br>
+     <p>
+        Using <span class="font-bold">Nostr Nests</span> on a mobile browser? Connect your wallet using <span class="font-bold">Bitcoin Connect</span> 
+        to enable one-click zaps. Even if you are on your phone!
+    </p>
+     <bc-button></bc-button>
 </div>
