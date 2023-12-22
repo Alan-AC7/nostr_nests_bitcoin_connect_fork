@@ -51,7 +51,7 @@
     <br>
      <p>
         Using <span class="font-bold">Nostr Nests</span> on a mobile browser? Connect your wallet using <span class="font-bold">Bitcoin Connect</span> 
-        to enable one-click zaps. Even if you are on your phone!
+        to enable one-click zaps!. Even if you are on your phone!
     </p>
      <bc-button></bc-button>
 </div>
